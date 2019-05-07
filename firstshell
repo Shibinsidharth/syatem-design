@@ -1,0 +1,6 @@
+echo $SHELL
+echo shibin_sidharth
+whoami
+echo $1
+echo $2
+echo $#

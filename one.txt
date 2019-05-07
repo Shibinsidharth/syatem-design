@@ -1,0 +1,12 @@
+firstshell
+forloop.sh
+one.txt
+shell-script.pdf
+shibi
+sid
+sum
+test.sh
+two.txt
+UGC-CS-10-unix.ppt
+John Prakash <johnprakash@gmail.com>
+John Prakash Joseph,

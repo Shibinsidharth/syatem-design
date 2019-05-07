@@ -1,0 +1,289 @@
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git init
+Initialized empty Git repository in /var/nfs/.home/mca2017/mca1749/Desktop/S4/shell/network/.git/
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git config user.name Shibinsidharthmca1749@mca-pc52:~/Desktop/S4/shell/network$ git config user.email sidharthshibin96@gmail.com
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git add * 
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git commit
+Use "fg" to return to nano.
+
+[1]+  Stopped                 git commit
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git commit -m "haiii"
+[master (root-commit) 04092d4] haiii
+ 16 files changed, 500 insertions(+)
+ create mode 100755 sliding window/client
+ create mode 100644 sliding window/client.c
+ create mode 100755 sliding window/server
+ create mode 100644 sliding window/server.c
+ create mode 100755 stop & wait/client
+ create mode 100644 stop & wait/client.c
+ create mode 100755 stop & wait/server
+ create mode 100644 stop & wait/server.c
+ create mode 100755 tcp/client
+ create mode 100644 tcp/client.c
+ create mode 100755 tcp/server
+ create mode 100644 tcp/server.c
+ create mode 100755 udp/client
+ create mode 100644 udp/client.c
+ create mode 100755 udp/server
+ create mode 100644 udp/server.c
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ git clone https://github.com/Shibinsidharth/networklab.git
+Cloning into 'networklab'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+mca1749@mca-pc52:~/Desktop/S4/shell/network$ cd networklab/
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git add * 
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git commit -m "haiii"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mca1749@mca-pc52.(none)')
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git config user.name Shibinsidharth
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git config user.email sidharthshibin96@gmail.com
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git add * mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git commit -m "haiii"[master caa98a5] haiii
+ 16 files changed, 500 insertions(+)
+ create mode 100755 sliding window/client
+ create mode 100644 sliding window/client.c
+ create mode 100755 sliding window/server
+ create mode 100644 sliding window/server.c
+ create mode 100755 stop & wait/client
+ create mode 100644 stop & wait/client.c
+ create mode 100755 stop & wait/server
+ create mode 100644 stop & wait/server.c
+ create mode 100755 tcp/client
+ create mode 100644 tcp/client.c
+ create mode 100755 tcp/server
+ create mode 100644 tcp/server.c
+ create mode 100755 udp/client
+ create mode 100644 udp/client.c
+ create mode 100755 udp/server
+ create mode 100644 udp/server.c
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sidharthshibin96@gmail.com
+Password for 'https://sidharthshibin96@gmail.com@github.com': 
+Counting objects: 22, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (22/22), 21.89 KiB | 0 bytes/s, done.
+Total 22 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/Shibinsidharth/networklab.git
+   f142095..caa98a5  master -> master
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git add * 
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Untitled Folder/
+
+nothing added to commit but untracked files present (use "git add" to track)
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git add Untitled\ Folder/
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   Untitled Folder/Untitled Document
+
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git commit -m "no need"
+[master 5ecb621] no need
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Untitled Folder/Untitled Document
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sidharthshibin96@gmail.com
+Password for 'https://sidharthshibin96@gmail.com@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 327 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Shibinsidharth/networklab.git
+   caa98a5..5ecb621  master -> master
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': sidharthshibin96@gmail.com
+Password for 'https://sidharthshibin96@gmail.com@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 327 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Shibinsidharth/networklab.git
+   caa98a5..5ecb621  master -> master
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ clear
+
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git log
+commit 5ecb6211e79855c5cd6d3408c4438b2c642c5f64
+Author: Shibinsidharth <sidharthshibin96@gmail.com>
+Date:   Thu Apr 25 11:50:53 2019 +0530
+
+    no need
+
+commit caa98a55c153fe6c24003e261226a5ded89a66c9
+Author: Shibinsidharth <sidharthshibin96@gmail.com>
+Date:   Thu Apr 25 11:48:28 2019 +0530
+
+    haiii
+
+commit f142095a47ab60a2541c10008813952632ba5e54
+Author: Shibin sidharth <sidharthshibin96@gmail.com>
+Date:   Thu Apr 25 11:47:38 2019 +0530
+
+    Initial commit
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git add Untitled\ Folder/^C
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git pull Untitled\ Folder/
+fatal: 'Untitled Folder/' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git pull https://github.com/Shibinsidharth/networklab.git
+From https://github.com/Shibinsidharth/networklab
+ * branch            HEAD       -> FETCH_HEAD
+Already up-to-date.
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git pull https://github.com/Shibinsidharth/networklab.git
+From https://github.com/Shibinsidharth/networklab
+ * branch            HEAD       -> FETCH_HEAD
+Already up-to-date.
+mca1749@mca-pc52:~/Desktop/S4/shell/network/networklab$ git revert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <n>    parent number
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+
